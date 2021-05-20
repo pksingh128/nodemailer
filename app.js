@@ -50,7 +50,7 @@ app.post('/send',(req,res) => {
   // setup email data with unicode symbols
   let mailOptions = {
       from: `"Pizza corner" <${process.env.EMAIL}>`, // sender address
-      to: 'richakumari596@gmail.com', // list of receivers
+      to: '', // list of receivers
       subject: 'Order Confirmation', // Subject line
       text: 'Hello world?', // plain text body
       html: output // html body
